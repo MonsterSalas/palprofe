@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(78, 76, 76);
+    font-family: 'Candara';
+    text-align: center;
+    color:#fff
+    
+}
+/*Barra de navegación*/
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(47, 48, 48);
+    color: #fff;
+}
+.logo{
+    font-size: 30px;
+}
+.links{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.links a {
+    color: #fff;
+}
+/*Cabecera de la página (Idealmente una imagen)*/
+.cabecera{
+    display: block;
+    margin: 0px auto;
+    border: 2px solid white;
+    height: 600px;
+
+
+}
+/*Sección de 'Section'*/
+.componentes
+{
+    width: auto;
+    height: auto;
+}
+.perifericos
+{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
+/*Cajas de objetos (Mouse, Micrófono, etc.)*/
+.caja{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    border: 1px solid black;
+    height: 350px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
+    
+}
+/*Modificación de imágenes de las cajas*/
+#img
+{
+    border-radius: 10px;
+    height: 350px;
+    width: 400px;
+}
+/*Texto por debajo de las cajas*/
+#txtcaja
+{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+}
+
+
